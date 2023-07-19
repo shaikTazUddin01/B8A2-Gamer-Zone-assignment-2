@@ -261,6 +261,9 @@ img.Play-Instantly-img-2 {
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
+.footer-social-icon i {
+    font-size: 24px;
+}
 .footer-policy{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -462,6 +465,9 @@ img.Play-Instantly-img-2 {
 .footer-policy a{
    margin-top: 30px;
 
+}
+.footer-social-icon i {
+    font-size: 25px;
 }
 .footer-copyright{
     margin-top: 40px;
