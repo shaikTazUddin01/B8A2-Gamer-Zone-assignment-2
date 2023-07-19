@@ -275,52 +275,124 @@ img.card-img {
     margin-top: 20px;
 }
 
+.Online-Games-Funny-Videos-card-item {
+    position: relative;
+    width: 100%;
+}
+
+.Online-Games-Funny-Videos-card-item img {
+    width: 100%;
+    height: auto;
+}
+
+.Online-Games-Funny-Videos-card-item i{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    color: rgb(43, 39, 39);
+    font-size: 16px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    display: none;
+}
+.Online-Games-Funny-Videos-card-item .watch-now{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    /* background-color: #ffffff; */
+    color:#FF42A5;
+    font-size: 20px;
+    /* padding: 8px 12px; */
+    border: none;
+    cursor: pointer;
+    /* border-radius: 50%; */
+    text-align: center;
+    display: none;
+}
+.card-item-img img{
+    border: 3px solid #ffffff;
+    border-radius:18px ;
+    /* padding-bottom: -10px; */
+}
+.card-item-img img:hover{
+    border: 2px solid #F948B2;
+    border-radius:18px ;
+    /* padding-bottom: -10px; */
+}
+.card-item-img:hover i{
+    display: block;
+}
+.card-item-img:hover .watch-now{
+    display: block;
+}
+
+.Online-Games-Funny-Videos-card-item img:hover {
+    filter: brightness(50%);
+}
+
 /* <!-- Online Games Funny Videos section end--> */
 /* Play-Instantly section */
-.Play-Instantly{
+.Play-Instantly {
     display: flex;
     justify-content: center;
     gap: 25px;
     align-items: center;
     margin-top: 100px;
 }
+
 .Play-Instantly-contant {
     width: 50%;
     position: relative;
     padding-right: 120px;
 }
-.Play-Instantly-title{
+
+.Play-Instantly-title {
     text-align: right;
-font-size: 45px;
-font-weight: 700;
+    font-size: 45px;
+    font-weight: 700;
 }
-.Play-Instantly-title span{
+
+.Play-Instantly-title span {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.Play-Instantly-description{
+
+.Play-Instantly-description {
     margin-top: 10px;
     color: #534C64;
-text-align: right;
-font-size: 18px;
-font-weight: 400;
-line-height: 25px; /* 166.667% */
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    /* 166.667% */
 }
-.Play-Instantly-img{
+
+.Play-Instantly-img {
     width: 50%;
 }
+
 img.Play-Instantly-img-2 {
     position: relative;
     margin-top: -270px;
     margin-left: -111px;
 }
+
 /* <!-- action game section --> */
-.action-game{
+.action-game {
     margin-top: 100px;
 }
-.action-game-section-1{
+
+.action-game-section-1 {
     /* display: grid;
     grid-template-columns: repeat(5,1fr);
     justify-content: space-around; */
@@ -329,120 +401,97 @@ img.Play-Instantly-img-2 {
     /* align-items: center; */
     /* grid-area: 15px; */
 }
-.action-game-section-item{
+
+.action-game-section-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   padding:5px 15px;
-   border: 1px solid #ffffff;
-   /* border-radius: 35px; */
+    padding: 5px 15px;
+    border: 1px solid #ffffff;
+    /* border-radius: 35px; */
 
 }
-.action-game-section-item:hover{
-   border: 1px solid #FF42A5;
-   border-radius: 35px;
-   color: #FF42A5;
-   padding:5px 15px;
-   /* position: sticky; */
-   
+
+.action-game-section-item:hover {
+    border: 1px solid #FF42A5;
+    border-radius: 35px;
+    color: #FF42A5;
+    padding: 5px 15px;
+    /* position: sticky; */
+
 }
-.action-game-section-item img{
+
+.action-game-section-item img {
     width: 20%;
 }
-.action-game-section-item h3{
+
+.action-game-section-item h3 {
     font-size: 15px;
 }
-.action-game-section-2{
+
+.action-game-section-2 {
     display: flex;
     /* justify-content: space-evenly; */
     align-items: center;
     grid-area: 10px;
     margin-top: 20px;
 }
+
 /* footer area */
-.footer{
+.footer {
     background-color: #0B0223;
     padding: 100px 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.footer-logo,.footer-menu,.footer-social-icon,.footer-policy,.footer-copyright{
+
+.footer-logo,
+.footer-menu,
+.footer-social-icon,
+.footer-policy,
+.footer-copyright {
     display: flex;
 }
-.footer-logo h1{
-color: #FFF;
+
+.footer-logo h1 {
+    color: #FFF;
 }
+
 .footer-menu a {
     color: #ffffff;
     text-decoration: none;
 
 }
-.footer-menu  {
-    gap: 20px;
+
+.footer-menu {
+    gap: 25px;
     font-size: 18px;
     margin-top: 50px;
 
 }
-.footer-social-icon{
+
+.footer-social-icon {
     margin-top: 40px;
 }
+.footer-policy{
+    gap: 25px;
+}
 .footer-policy a {
-    color:rgba(255, 255, 255, 0.60);
-    gap: 20px;
+    color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     margin-top: 50px;
     text-decoration: none;
 
 }
-.footer-copyright p{
-    color:rgba(255, 255, 255, 0.60);
+
+.footer-copyright p {
+    color: rgba(255, 255, 255, 0.60);
     font-size: 16px;
     margin-top: 20px;
 }
-.footer-social-icon i{
+
+.footer-social-icon i {
     color: white;
     padding: 10px;
-}
-
-.Online-Games-Funny-Videos-card-item{
-    position: relative;
-    width: 100%;
-}
-.Online-Games-Funny-Videos-card-item img{
-    width: 100%;
-  height: auto;
-}
-.Online-Games-Funny-Videos-card-item i{
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    color: white;
-    font-size: 16px;
-    padding: 8px 12px;
-    border: none;
-    cursor: pointer;
-    border-radius: 50%;
-    text-align: center; 
-    display: none;
-}
-.card-item-img:hover i{
-   display: block;
-   /* filter: brightness(100%); */
-
-   /* z-index: 3; */
-   /* background-color: #4EC5F7; */
-}
-.Online-Games-Funny-Videos-card-item img:hover{
-    /* display: block; */
-    filter: brightness(50%);
-
-    /* z-index: 3; */
-    /* background-color: #4EC5F7; */
- }
-.Online-Games-Funny-Videos-card-item >imh {
-
 }
