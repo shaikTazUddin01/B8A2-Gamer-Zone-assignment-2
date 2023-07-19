@@ -316,7 +316,7 @@ img.Play-Instantly-img-2 {
     .banner {
         padding: 20px;
         align-items: center;
-
+       flex-direction: column-reverse;
     }
 
     .banner-img {
@@ -332,24 +332,25 @@ img.Play-Instantly-img-2 {
     .banner-contant {
         width: 100%;
         margin-top: 80px;
+        text-align: center;
     }
 .banner-title{
-    font-size: 30px;
+    font-size: 38px;
     text-align: center;
 
 }
 .banner-sab-title{
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
 
 }
 .banner-description{
-    padding-left: 20%;
-    font-size: 16px;
+    /* padding-left: 20%; */
+    font-size: 18px;
 }
 .btn-primary{
-    font-size: 16px;
-    padding: 12px 20px;
+    font-size: 18px;
+    padding: 15px 25px;
 }
 .banner-button{
     text-align: center;
