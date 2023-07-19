@@ -108,6 +108,7 @@ header {}
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
+
 .banner-contant {
     width: 50%;
 }
@@ -287,7 +288,7 @@ img.card-img {
 
 .Online-Games-Funny-Videos-card-item i{
     position: absolute;
-    top: 35%;
+    top:45%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -303,12 +304,12 @@ img.card-img {
 }
 .Online-Games-Funny-Videos-card-item .watch-now{
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     /* background-color: #ffffff; */
-    color:#FF42A5;
+    color:#F948B2;
     font-size: 20px;
     /* padding: 8px 12px; */
     border: none;
@@ -316,9 +317,10 @@ img.card-img {
     /* border-radius: 50%; */
     text-align: center;
     display: none;
+    width: 700;
 }
 .card-item-img img{
-    border: 3px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius:18px ;
     /* padding-bottom: -10px; */
 }
@@ -332,10 +334,18 @@ img.card-img {
 }
 .card-item-img:hover .watch-now{
     display: block;
+    filter: brightness(100%);
 }
-
+/* 
 .Online-Games-Funny-Videos-card-item img:hover {
     filter: brightness(50%);
+} */
+
+.card-item-img:hover {
+    filter: brightness(50%);
+}
+.card-item-img:hover {
+    /* filter: brightness(50%); */
 }
 
 /* <!-- Online Games Funny Videos section end--> */
@@ -393,13 +403,9 @@ img.Play-Instantly-img-2 {
 }
 
 .action-game-section-1 {
-    /* display: grid;
-    grid-template-columns: repeat(5,1fr);
-    justify-content: space-around; */
     display: flex;
     flex-wrap: wrap;
-    /* align-items: center; */
-    /* grid-area: 15px; */
+    
 }
 
 .action-game-section-item {
